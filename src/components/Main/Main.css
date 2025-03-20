@@ -1,0 +1,182 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main__current {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-auto-rows: 300px;
+    gap: 50px;
+}
+
+.main__current-item {
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__current-item-temp {
+    font-weight: 500;
+    font-size: 96px;
+    color: #4793ff;
+}
+
+.main__current-item-date {
+    font-weight: 400;
+    font-size: 40px;
+    color: #000;
+}
+
+.main__current-item-info {
+    font-weight: 400;
+    font-size: 25px;
+    color: #939cb0;
+}
+
+.main__current-item-icon {
+    position: absolute;
+    top: 46px;
+    right: 20px;
+}
+
+.main__current-item-decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main__current-item-data-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    background: #fff;
+    box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
+}
+
+.main__current-item.info {
+    justify-content: center;
+    gap: 24px;
+}
+
+.main__current-item-data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.main__current-item-data-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__current-item-data-title {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: #939cb0;
+    max-width: 100px;
+}
+
+.main__current-item-data-value {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.main__daily {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__daily-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__daily-header-btn {
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    background: #4793ff;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+
+.main__daily-header-btn.cancel {
+    background: white;
+    color: black;
+}
+
+.main__daily-days {
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    background: #fff;
+    padding: 20px;
+    margin-top: 16px;
+    border-radius: 0 0 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 26px;
+}
+
+.main__daily-item {
+    background: rgba(71, 147, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main__daily-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.main__daily-item-day {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+
+.main__daily-item-date {
+    font-weight: 400;
+    font-size: 14px;
+    color: #939cb0;
+    margin-top: 6px;
+}
+
+.main__daily-item img {
+    margin: 12px 0;
+}
+
+.main__daily-item-dayTemp {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+
+.main__daily-item-nightTemp {
+    font-weight: 400;
+    font-size: 13px;
+    color: #939cb0;
+}
+
+.main__daily-item-status {
+    font-weight: 400;
+    font-size: 13px;
+    color: #939cb0;
+}

@@ -1,0 +1,42 @@
+@import './fonts.css';
+@import './common.css';
+@import './root.css';
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    background: var(--whiteColor);
+}
+
+.nav__options-input {
+    background: var(--navOptions);
+}
+
+.main__current-item-info {
+    color: var(--currentItem);
+}
+
+.main__current-item {
+    background: var(--mainCurrent);
+}
+
+.main__current-item-date {
+    color: var(--currentItem);
+}
+
+.main__current-item-temp {
+    color: var(--itemTemp);
+}
+
+.main__current-item-data-title {
+    color: var(--itemData);
+}
+
+.main__current-item-data-value {
+    color: var(--itemData);
+}

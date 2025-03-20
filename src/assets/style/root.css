@@ -1,0 +1,14 @@
+:root {
+    --whiteColor: #fff;
+    --navOptions: rgb(151, 201, 241);
+    --itemTemp: blue;
+}
+
+[data-theme = 'dark'] {
+    --whiteColor: #000;
+    --navOptions: #fff;
+    --currentItem: #fff;
+    --mainCurrent: rgba(68, 54, 54, 0.349);
+    --itemTemp: rgb(238, 0, 0);
+    --itemData: rgb(146, 79, 255);
+}
